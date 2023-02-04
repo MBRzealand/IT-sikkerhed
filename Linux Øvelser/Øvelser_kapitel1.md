@@ -1,7 +1,7 @@
 ## Øvelse 1:
-Use the ls command from the root (/) directory to explore the directory 
-structure of Linux. Move to each of the directories with the cd command 
-and run pwd to verify where you are in the directory structure.
+Use the ```ls``` command from the root (```/```) directory to explore the directory 
+structure of Linux. Move to each of the directories with the ```cd``` command 
+and run ```pwd``` to verify where you are in the directory structure.
 
 #### Besvarelse:
    
@@ -17,7 +17,7 @@ pwd
 ```
 
 ## Øvelse 2:  
-Use the whoami command to verify which user you are logged in as.
+Use the ```whoami``` command to verify which user you are logged in as.
 
 #### Besvarelse:
 
@@ -28,7 +28,7 @@ whoami
 
 
 ## Øvelse 3:
-Use the locate command to find wordlists that can be used for password 
+Use the ```locate``` command to find wordlists that can be used for password 
 cracking
 
 #### Besvarelse:
@@ -41,8 +41,8 @@ ls
 ![image](https://user-images.githubusercontent.com/70659124/216372815-8cb79a6e-0c86-4c11-84ee-734cf557bd84.png)
 
 ## Øvelse 4:
-Use the cat command to create a new file and then append to that file. 
-Keep in mind that > redirects input to a file and >> appends to a file.
+Use the ```cat``` command to create a new file and then append to that file. 
+Keep in mind that ```>``` redirects input to a file and ```>>``` appends to a file.
 
 #### Besvarelse:
 
