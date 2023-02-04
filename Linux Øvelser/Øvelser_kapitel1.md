@@ -44,6 +44,34 @@ ls
 Use the cat command to create a new file and then append to that file. 
 Keep in mind that > redirects input to a file and >> appends to a file.
 
+#### Besvarelse:
+
+```shell
+cd Desktop
+cat > task_4_file.txt
+cat task_4_file.txt
+cat >> task_4_file.txt
+cat task_4_file.txt
+```
+
+## Øvelse 5:
+Create a new directory called *hackerdirectory* and create a new file in 
+that directory named *hackedfile*. Now copy that file to your */root* directory 
+and rename it *secretfile*.
+
+#### Besvarelse:
+
+```shell
+cd Desktop
+mkdir 'hackerdirectory'
+cd hackerdirectory
+touch 'hackedfile'
+cp hackedfile /root/secretfile
+sudo cp hackedfile /root/secretfile
+```
+
+![image](https://user-images.githubusercontent.com/70659124/216771639-a50f2be3-906f-48bc-9831-30637a66a6a1.png)
+
 
 
 
