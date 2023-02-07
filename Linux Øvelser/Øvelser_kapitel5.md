@@ -64,6 +64,12 @@ Choose another file and change its ownership using chown.
 #### Besvarelse:
    
 ```shell
-cd Desktop/hackerdirectory
-ls -l hackedfile
+```
+
+## Øvelse 4:
+Use the find command to find all files with the SGID bit set.
+
+#### Besvarelse:
+   
+```shell
 ```
