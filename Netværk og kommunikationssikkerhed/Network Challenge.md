@@ -9,6 +9,7 @@ What is the IP address of demo.testfire.net, and what is Thors IP address?
 #### Besvarelse:
 
 ```shell
+
 ```
 
 ## Øvelse 2:  
