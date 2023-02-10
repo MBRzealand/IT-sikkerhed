@@ -1,3 +1,8 @@
+## Redskaber
+[Online SHA hashing](https://emn178.github.io/online-tools/sha256.html)  
+[Crackstation](https://crackstation.net/)  
+[Cyberchef](https://gchq.github.io/CyberChef/)  
+
 ## Øvelse 1:
 Lav en ```md5``` hashværdi af en besked i Cyberchef. Send besked og hashværdi til makker. Makker skal afgøre, om beskeden passer til hashværdien eller ej. 
 
@@ -95,9 +100,35 @@ Hash: ```139352166a84fe2809837b2d72b8a82c0101f336b983d48622bd17dbc3280ee7a8cb3cf
 
 ## Øvelse 6:
 Prøv også bcrypt (bruges til passwords) og sha3 i Cyberchef.
-
-#### Besvarelse:
    
-```shell
- 
-```
+### bcrypt:
+#### Øvelse 1
+Besked: ```Hej min ven```  
+Hash: ```$2a$10$Lv/m2z0pPDhdBXopAyR/fu.OpkoWe.Jj7FF9mnTCXWTXi1bNfxUm6```
+
+#### Øvelse 3
+Password: ```coolpassword```  
+Hash: ```$2a$10$8ksQ7/JY8hAQe3a4uQ8.ZO7uVVGRvZKZTXuMbG/m9ZYasI/pQ9CZK```
+![Imgur](https://i.imgur.com/LXDv2oe.png)
+
+
+#### Øvelse 4
+Password: ```coolpassword1ab747d15e4e780bc47c```  
+Hash: ```$2a$10$8ExFx4kNsygKy1IdiSloDOmVeKR1hvWO.MePz8EWYKhJyKMm1y/ze```
+![Imgur](https://i.imgur.com/GozBHFa.png)
+
+
+### sha3:
+#### Øvelse 1
+Besked: ```Hej min ven```  
+Hash: ```b85491a2e3b598e65a7f6652c45f29f4b93fd41d1c3817ac72a2e25c24f1b7c757d3c6ac4a07eef41ed16d8ef08f7a19716ea8f9bcbdb3130dbdc9e4a4a4fb6a```
+
+#### Øvelse 3
+Password: ```coolpassword```  
+Hash: ```efd407e22cd8a47c239812536e2ae260851dc58f3922ad28f8e29c7c900b700508edaf60a5a3f86770149c2a32f0896caad67b4d8e984133a815006ea7428f5b```
+![Imgur](https://i.imgur.com/gMfJVD5.png)
+
+#### Øvelse 4
+Password: ```coolpasswordfee4e797506573d71f2c```  
+Hash: ```efd407e22cd8a47c239812536e2ae260851dc58f3922ad28f8e29c7c900b700508edaf60a5a3f86770149c2a32f0896caad67b4d8e984133a815006ea7428f5b```
+![Imgur](https://i.imgur.com/vtN7RrK.png)
