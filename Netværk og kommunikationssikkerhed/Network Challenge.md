@@ -8,6 +8,8 @@ What is the IP address of demo.testfire.net, and what is Thors IP address?
 
 #### Besvarelse:
 
+Thors IP address is: ```192.168.1.125``` (the website he visits sends a login suggestion in frame 1587)
+
 ```shell
 
 ```
@@ -48,17 +50,13 @@ How did the user land on demo.testfire.net? Any indications on what directed him
 A photo called “home1.jpg” is fetched from demo.testfire.net. Try to extract it
 
 #### Besvarelse:
-
-```shell
-```
+![image](https://user-images.githubusercontent.com/70659124/218327115-87be3f78-1768-4482-927e-24412a58c685.png)
 
 ## Øvelse 7:  
 Which packet(s) contains the photo?
 
 #### Besvarelse:
-
-```shell
-```
+Packet ```1631``` is the HTTP get request that contains the image.
 
 ## Øvelse 8:  
 How many HTTP requests were in total made to demo.testfire.net?
@@ -88,17 +86,21 @@ TCP connection with demo.testfire.net torn down? If yes then where, and if no th
 Figure out who is behind the IP address 172.217.19.195 (without using google)
 
 #### Besvarelse:
+Go to statistics > resolved addresses > search for the IP
 
-```shell
-```
+The address for the IP is: ```www.gstatic.com```
 
 ## Øvelse 12:  
 A machine has the IP address 192.168.1.101. Try to find its hostname
 
 #### Besvarelse:
+Først søg efter ip adressen: ```ip.addr == 192.168.1.101```  
+Dette giver source device: ```Apple_8d:83:a1```  
 
-```shell
-```
+Derefter kan vi finde navnet på devicet ved:  
+Go to statistics > Endpoints > Ethernet > klik "name resolution" > apply as filter > selected > kig på DHCP requesten efter "host name"
+
+IP adressens hostname er ```DanyKallasiPad``` 
 
 ## Øvelse 13:  
 Generate a list of all the endpoints (IPv4) seen on the network
