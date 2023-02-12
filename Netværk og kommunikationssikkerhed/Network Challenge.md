@@ -106,6 +106,4 @@ IP adressens hostname er ```DanyKallasiPad```
 Generate a list of all the endpoints (IPv4) seen on the network
 
 #### Besvarelse:
-
-```shell
-```
+Go to statistics > IPv4 statistics > all addresses
