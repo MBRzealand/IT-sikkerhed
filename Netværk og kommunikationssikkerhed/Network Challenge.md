@@ -7,12 +7,13 @@ Also note down the packet numbers where you found the answers.
 What is the IP address of demo.testfire.net, and what is Thors IP address?
 
 #### Besvarelse:
+The ip of demo.testfire.net can be found the following way:  
+Statistics > Resolved addresses > search for "demo"  
+
+the IP of demo.testfire.net is: ```65.61.137.117```  
 
 Thors IP address is: ```192.168.1.125``` (the website he visits sends a login suggestion in frame 1587)
 
-```shell
-
-```
 
 ## Øvelse 2:  
 In what package(s) did we get the DNS response, and what happened?
@@ -26,9 +27,11 @@ In what package(s) did we get the DNS response, and what happened?
 What kind of service(s) did Thor access on demo.testfire.net?
 
 #### Besvarelse:
+Thor accessed banking services, however if we download the html page, we can see the following text:
 
-```shell
-```
+The Altoro Mutual website is published by Watchfire, Inc. for the sole purpose of demonstrating the effectiveness of Watchfire products in detecting web application vulnerabilities and website defects. This site is not a real banking site. Similarities, if any, to third party products and/or websites are purely coincidental. This site is provided "as is" without warranty of any kind, either express or implied. Watchfire does not assume any risk in relation to your use of this website. For additional Terms of Use, please go to http://www.watchfire.com/statements/terms.aspx.
+
+This technically means that the website is just a demonstrational website, and not a real banking website
 
 ## Øvelse 4:  
 HTTP traffic was observed. Tell what elements the first page accessed contained?
@@ -59,12 +62,14 @@ Which packet(s) contains the photo?
 Packet ```1631``` is the HTTP get request that contains the image.
 
 ## Øvelse 8:  
-How many HTTP requests were in total made to demo.testfire.net?
+How many HTTP requests were in total made to demo.testfire.net?  
 
 #### Besvarelse:
 
-```shell
-```
+Statistics > HTTP > packet counter > filter by ip (```ip.addr == 65.61.137.117```):
+
+![image](https://user-images.githubusercontent.com/70659124/218336265-0e6a8e99-7d5e-408b-ad93-13a1da9a04cc.png)
+
 
 ## Øvelse 9:  
 What is going on in packet 1694, and to what is that packet replying?
