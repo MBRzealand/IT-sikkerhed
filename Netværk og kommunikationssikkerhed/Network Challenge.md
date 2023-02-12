@@ -45,9 +45,8 @@ HTTP traffic was observed. Tell what elements the first page accessed contained?
 How did the user land on demo.testfire.net? Any indications on what directed him there?
 
 #### Besvarelse:
-
-```shell
-```
+Statistics > HTTP > Request sequences:  
+we can see demo.testfire.net is nested under Google, meaning the user went there through Google.
 
 ## Øvelse 6:  
 A photo called “home1.jpg” is fetched from demo.testfire.net. Try to extract it
