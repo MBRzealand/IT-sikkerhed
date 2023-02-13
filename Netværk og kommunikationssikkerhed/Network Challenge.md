@@ -19,11 +19,12 @@ Thors IP address is: ```192.168.1.125``` (the website he visits sends a login su
 In what package(s) did we get the DNS response, and what happened?
 
 #### Besvarelse:
+if we filter by: ```dns contains "demo"``` we get all dns related activity to "demo.testfire.net"
+we see the first response failed, and the second is a retransmission of the first, the remaining 3 got regular responses
+![image](https://user-images.githubusercontent.com/70659124/218411550-d1362e89-462e-463d-8339-1833b9274a4a.png)
 
-```shell
-```
 
-## Øvelse 3:  
+## Øvelse 3: banking?
 What kind of service(s) did Thor access on demo.testfire.net?
 
 #### Besvarelse:
@@ -37,15 +38,14 @@ This technically means that the website is just a demonstrational website, and n
 HTTP traffic was observed. Tell what elements the first page accessed contained?
 
 #### Besvarelse:
+ekstrabladet?
 
-```shell
-```
 
 ## Øvelse 5:  
 How did the user land on demo.testfire.net? Any indications on what directed him there?
 
 #### Besvarelse:
-Statistics > HTTP > Request sequences:  
+Statistics > HTTP > Request sequences:
 we can see demo.testfire.net is nested under Google, meaning the user went there through Google.
 
 ## Øvelse 6:  
@@ -64,6 +64,7 @@ Packet ```1631``` is the HTTP get request that contains the image.
 How many HTTP requests were in total made to demo.testfire.net?  
 
 #### Besvarelse:
+10 packets in total
 
 Statistics > HTTP > packet counter > filter by ip (```ip.addr == 65.61.137.117```):
 
@@ -74,17 +75,15 @@ Statistics > HTTP > packet counter > filter by ip (```ip.addr == 65.61.137.117``
 What is going on in packet 1694, and to what is that packet replying?
 
 #### Besvarelse:
+The packet cant find the favicon:
+follow > http stream > scroll ned og se response header
 
-```shell
-```
 
 ## Øvelse 10:  
 TCP connection with demo.testfire.net torn down? If yes then where, and if no then why not?
 
 #### Besvarelse:
-
-```shell
-```
+# ?
 
 ## Øvelse 11:  
 Figure out who is behind the IP address 172.217.19.195 (without using google)
