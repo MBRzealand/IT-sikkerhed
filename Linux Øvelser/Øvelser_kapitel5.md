@@ -62,9 +62,26 @@ x - execute
 Choose another file and change its ownership using chown.
 
 #### Besvarelse:
+For at vise ændring af ejerskab oprettes en ny bruger:
    
 ```shell
+sudo useradd Mikkel
 ```
+Dernæst kan en fil oprettes og ændres:
+
+```shell
+mkdir tmp_folder
+cd tmp_folder
+touch tmp_file
+```
+![image](https://user-images.githubusercontent.com/70659124/218725320-1eca7317-c3e3-4d57-bdb9-c547796db818.png)
+
+Fil-ejeren ændres:
+```shell
+sudo chown Mikkel tmp_file
+```
+![image](https://user-images.githubusercontent.com/70659124/218722772-05ee2fbb-967d-442b-8bc4-894a4a9bec6e.png)
+
 
 ## Øvelse 4:
 Use the find command to find all files with the SGID bit set.
@@ -72,4 +89,7 @@ Use the find command to find all files with the SGID bit set.
 #### Besvarelse:
    
 ```shell
+sudo find / -perm /2000 
 ```
+![image](https://user-images.githubusercontent.com/70659124/218730493-5144327b-8ab2-4730-a962-c4a13809287a.png)
+
