@@ -60,8 +60,14 @@ Find the nameserver and email server of your favorite website.
 #### Besvarelse:
    
 ```shell
-
+dig mikkel-boye-rasmussen.dk ns
 ```
+![image](https://user-images.githubusercontent.com/70659124/218812230-3388350f-4801-49a8-bf1e-9e6587cdb15e.png)
+
+```shell
+dig mikkel-boye-rasmussen.dk mx
+```
+![image](https://user-images.githubusercontent.com/70659124/218812445-20917884-1d52-4914-bbdf-bd668c4a5e27.png)
 
 ## Øvelse 7:
 Add Google’s DNS server to your /etc/resolv.conf file so your system
@@ -71,5 +77,10 @@ your local DNS server.
 #### Besvarelse:
    
 ```shell
-
+sudo chmod 777 /etc/resolv.conf
+mousepad /etc/resolv.conf
 ```
+![image](https://user-images.githubusercontent.com/70659124/218814494-d6c68edf-2e65-4a27-ab40-e71656285257.png)
+
+
+
