@@ -40,3 +40,8 @@ wc <filename>
 ```shell
 cut -d " " -f1 access.log| head
 ```
+
+#### Uniq (Find unikke entries)
+```shell
+sort <filename> | uniq
+```
