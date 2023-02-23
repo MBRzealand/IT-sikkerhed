@@ -1,3 +1,8 @@
+#### Funktionsmanual
+```shell
+man unzip
+```
+
 #### Skift password på bruger
 ```shell
 sudo passwd <navn på brugeren>
