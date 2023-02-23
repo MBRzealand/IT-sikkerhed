@@ -29,3 +29,8 @@ hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
 ```shell
 hydra -l admin -V -x 4:4:IVXMLCD sshydra.com ssh
 ```
+
+#### Wordcount
+```shell
+wc <filename>
+```
