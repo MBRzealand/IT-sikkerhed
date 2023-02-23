@@ -34,3 +34,9 @@ hydra -l admin -V -x 4:4:IVXMLCD sshydra.com ssh
 ```shell
 wc <filename>
 ```
+
+
+#### Cut (essenetielt split fra js og python)
+```shell
+cut -d " " -f1 access.log| head
+```
