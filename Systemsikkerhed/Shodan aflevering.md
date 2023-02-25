@@ -56,7 +56,6 @@ Der er en stor række filtre, jeg vil derfor liste et par der ved første øjeka
   <li>server - eksempelvis kan man finde alle netgear servere og anvende at de har default username: admin og default password: password</li>
   <li>has_vuln - kan kombineres med andre søgninger til at finde sårbare devices</li>
   <li>vuln - kan finde devices sårbare over for specifikke typer angreb</li>
-  <li></li>
 </ul>
 
 
@@ -72,15 +71,56 @@ Der er en stor række filtre, jeg vil derfor liste et par der ved første øjeka
 
 
 ## Øvelse 4:
+[Find sårbarheder](https://exposure.shodan.io/#/) i et udvalgt land
 
 #### Besvarelse:
+Det ligger naturligtvis lige til højrebenet at vælge Danmark, vi er dog etiske sikkerhedsfolk og vælger i stedet Sverige.
+
+query: ```country:se has_vuln:true```
+
+
+eksempel:  
+![image](https://user-images.githubusercontent.com/70659124/221367559-a858871c-0259-42cf-9dad-3c3634fdec70.png)
+
+liste af devicets sårbarheder:
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 
 ## Øvelse 5:
+Find forskellige enheder i nærheden af dit bopæl ([fx has_screenshot:true](https://maps.shodan.io/#55.845069296840485/11.040662303566934/8/satellite/has_screenshot:true))
 
 #### Besvarelse:
 
 
 ## Øvelse 6:
+Sæt op en overvågning på nogle ip-numre (fx dit eget ip-nummer eller Zealands ip-numre)
 
 #### Besvarelse:
+
+
+
+## Øvelse 7:
+https://monitor.shodan.io/dashboard?language=en
+
+#### Besvarelse:
+
+
+
+
+
+
+## Anvendt Arbejdstid:
+![image](https://user-images.githubusercontent.com/70659124/221368519-46c3cfeb-750f-4206-be02-1c2969da9478.png)
+
