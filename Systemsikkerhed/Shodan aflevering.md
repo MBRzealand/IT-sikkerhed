@@ -70,7 +70,7 @@ Der er en stor række filtre, jeg vil derfor liste et par der ved første øjeka
 
 
 
-## Øvelse 4:
+## Øvelse 4: - IKKE FÆRDIG
 [Find sårbarheder](https://exposure.shodan.io/#/) i et udvalgt land
 
 #### Besvarelse:
@@ -98,25 +98,29 @@ liste af devicets sårbarheder:
 </ul>
 
 
-## Øvelse 5:
+## Øvelse 5: - IKKE FÆRDIG
 Find forskellige enheder i nærheden af dit bopæl ([fx has_screenshot:true](https://maps.shodan.io/#55.845069296840485/11.040662303566934/8/satellite/has_screenshot:true))
 
 #### Besvarelse:
 
 
-## Øvelse 6:
-Sæt op en overvågning på nogle ip-numre (fx dit eget ip-nummer eller Zealands ip-numre)
+## Øvelse 6: - IKKE FÆRDIG
+[Sæt op en overvågning](https://monitor.shodan.io/dashboard?language=en) på nogle ip-numre (fx dit eget ip-nummer eller Zealands ip-numre)
 
 #### Besvarelse:
 
 
-
-## Øvelse 7:
-https://monitor.shodan.io/dashboard?language=en
+## Øvelse 7: - IKKE FÆRDIG
+Konstruer en søgning, der viser sårbare maskiner i Danmark, og gennemgå nogle af sårbarheder. 
 
 #### Besvarelse:
+Først kan vi søge efter sikkerhedsbrud i hele Danmark:
 
+query: ```country:dk has_vuln:true```
 
+Jeg skal til jobsamtale hos den danske virksomhed Tryg Forsikring, så passende kan vi lave en søgning på dem:
+
+query: ```org:Tryg has_vuln:true```
 
 
 
