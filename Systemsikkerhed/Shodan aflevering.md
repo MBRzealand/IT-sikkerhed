@@ -54,8 +54,8 @@ Der er en stor række filtre, jeg vil derfor liste et par der ved første øjeka
 **Kan misbruges:**
 <ul>
   <li>server - eksempelvis kan man finde alle netgear servere og anvende at de har default username: admin og default password: password</li>
-  <li></li>
-  <li></li>
+  <li>has_vuln - kan kombineres med andre søgninger til at finde sårbare devices</li>
+  <li>vuln - kan finde devices sårbare over for specifikke typer angreb</li>
   <li></li>
 </ul>
 
