@@ -126,11 +126,8 @@ query: ```country:dk has_vuln:true```
 
 130.226.237.173 (DTU) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425604-a87b4e87-9a3a-4bc2-bc96-f93ecd94ab12.png)  
 217.157.159.181 (Telenor) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425757-c293b7b7-1713-4e73-be1f-fb7575eb01f5.png) (FREAK, Logjam)
-
-
-
-
-
+217.157.159.181 (Telia Stofa A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426196-c28bb2c0-3953-4421-bc3f-a5cab2732164.png) (FREAK, Logjam)
+217.157.159.181 (Kartago Capital A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426241-ae990345-7d8d-4819-9f96-6a27a526cb54.png) (CVE-2022-32548 - unauthorized remote code execution)
 
 
 Jeg skal til jobsamtale hos den danske virksomhed Tryg Forsikring, så passende kan vi lave en søgning på dem:
