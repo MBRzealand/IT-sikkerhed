@@ -114,13 +114,13 @@ Eksempel:
 [Sæt op en overvågning](https://monitor.shodan.io/dashboard?language=en) på nogle ip-numre (fx dit eget ip-nummer eller Zealands ip-numre)
 
 #### Besvarelse:
-Jeg opsætter en overvågning på min egen IP da jeg ikke kan finde Zealands hjemmefra:
-![image](https://user-images.githubusercontent.com/70659124/221428928-ac29eff5-3125-48f8-a8f2-11bb82599261.png)
+Jeg opsætter en overvågning på min egen IP da jeg ikke kan finde Zealands hjemmefra:  
+![image](https://user-images.githubusercontent.com/70659124/221428928-ac29eff5-3125-48f8-a8f2-11bb82599261.png)  
 
 ![image](https://user-images.githubusercontent.com/70659124/221429054-fe3d2302-a5fa-48f2-9f03-740e46850b6e.png)
 
 
-Dette bliver en lidt kedelig overvågning da en søgning på min ip, ikke giver nogle resultater:
+Dette bliver en lidt kedelig overvågning da en søgning på min ip, ikke giver nogle resultater:  
 ![image](https://user-images.githubusercontent.com/70659124/221429014-11292bf3-300d-4910-b114-897b9b865c58.png)
 
 
@@ -146,7 +146,7 @@ query: ```org:Tryg has_vuln:true```
 
 ![image](https://user-images.githubusercontent.com/70659124/221428582-924893d7-a905-429f-965d-f3608b76d822.png)
 
-begge servere har følgende sårbarhed:
+begge servere har følgende sårbarhed:  
 ![image](https://user-images.githubusercontent.com/70659124/221428612-c4c65f8f-384b-44af-87b1-454c3b2cb2da.png)
 
 
