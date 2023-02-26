@@ -70,11 +70,11 @@ Der er en stor række filtre, jeg vil derfor liste et par der ved første øjeka
 
 
 
-## Øvelse 4: - IKKE FÆRDIG
+## Øvelse 4:
 [Find sårbarheder](https://exposure.shodan.io/#/) i et udvalgt land
 
 #### Besvarelse:
-Det ligger naturligtvis lige til højrebenet at vælge Danmark, vi er dog etiske sikkerhedsfolk og vælger i stedet Sverige.
+Det ligger naturligtvis lige til højrebenet at vælge Danmark, for at gøre det lidt interresant vælger vi i stedet Sverige.
 
 query: ```country:se has_vuln:true```
 
@@ -82,26 +82,32 @@ query: ```country:se has_vuln:true```
 eksempel:  
 ![image](https://user-images.githubusercontent.com/70659124/221367559-a858871c-0259-42cf-9dad-3c3634fdec70.png)
 
-liste af devicets sårbarheder:
+liste af devicets sårbarheder (Alle sårbarheder er PHP relaterede):
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>CVE-2018-19396</li>
+  <li>CVE-2018-19395</li>
+  <li>CVE-2022-31628</li>
+  <li>CVE-2022-31629</li>
+  <li>CVE-2019-9641</li>
+  <li>CVE-2017-7963</li>
+  <li>CVE-2017-7272</li>
+  <li>CVE-2019-9639</li>
+  <li>CVE-2019-9638</li>
+  <li>CVE-2015-9253</li>
+  <li>CVE-2019-9637</li>
 </ul>
 
 
-## Øvelse 5: - IKKE FÆRDIG
+## Øvelse 5:
 Find forskellige enheder i nærheden af dit bopæl ([fx has_screenshot:true](https://maps.shodan.io/#55.845069296840485/11.040662303566934/8/satellite/has_screenshot:true))
 
 #### Besvarelse:
+
+query: ```city:Albertslund has_screenshot:true```
+
+Eksempel:
+![image](https://user-images.githubusercontent.com/70659124/221424999-72e18ba4-0a26-44af-9f16-57bc21558d40.png)
+
 
 
 ## Øvelse 6: - IKKE FÆRDIG
@@ -117,6 +123,15 @@ Konstruer en søgning, der viser sårbare maskiner i Danmark, og gennemgå nogle
 Først kan vi søge efter sikkerhedsbrud i hele Danmark:
 
 query: ```country:dk has_vuln:true```
+
+130.226.237.173 (DTU) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425604-a87b4e87-9a3a-4bc2-bc96-f93ecd94ab12.png)  
+217.157.159.181 (Telenor) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425757-c293b7b7-1713-4e73-be1f-fb7575eb01f5.png) (FREAK, Logjam)
+
+
+
+
+
+
 
 Jeg skal til jobsamtale hos den danske virksomhed Tryg Forsikring, så passende kan vi lave en søgning på dem:
 
