@@ -110,13 +110,22 @@ Eksempel:
 
 
 
-## Øvelse 6: - IKKE FÆRDIG
+## Øvelse 6:
 [Sæt op en overvågning](https://monitor.shodan.io/dashboard?language=en) på nogle ip-numre (fx dit eget ip-nummer eller Zealands ip-numre)
 
 #### Besvarelse:
+Jeg opsætter en overvågning på min egen IP da jeg ikke kan finde Zealands hjemmefra:
+![image](https://user-images.githubusercontent.com/70659124/221428928-ac29eff5-3125-48f8-a8f2-11bb82599261.png)
+
+![image](https://user-images.githubusercontent.com/70659124/221429054-fe3d2302-a5fa-48f2-9f03-740e46850b6e.png)
 
 
-## Øvelse 7: - IKKE FÆRDIG
+Dette bliver en lidt kedelig overvågning da en søgning på min ip, ikke giver nogle resultater:
+![image](https://user-images.githubusercontent.com/70659124/221429014-11292bf3-300d-4910-b114-897b9b865c58.png)
+
+
+
+## Øvelse 7:
 Konstruer en søgning, der viser sårbare maskiner i Danmark, og gennemgå nogle af sårbarheder. 
 
 #### Besvarelse:
@@ -125,14 +134,21 @@ Først kan vi søge efter sikkerhedsbrud i hele Danmark:
 query: ```country:dk has_vuln:true```
 
 130.226.237.173 (DTU) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425604-a87b4e87-9a3a-4bc2-bc96-f93ecd94ab12.png)  
-217.157.159.181 (Telenor) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425757-c293b7b7-1713-4e73-be1f-fb7575eb01f5.png) (FREAK, Logjam)
-217.157.159.181 (Telia Stofa A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426196-c28bb2c0-3953-4421-bc3f-a5cab2732164.png) (FREAK, Logjam)
-217.157.159.181 (Kartago Capital A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426241-ae990345-7d8d-4819-9f96-6a27a526cb54.png) (CVE-2022-32548 - unauthorized remote code execution)
+217.157.159.181 (Telenor) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221425757-c293b7b7-1713-4e73-be1f-fb7575eb01f5.png) (FREAK, Logjam)  
+217.157.159.181 (Telia Stofa A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426196-c28bb2c0-3953-4421-bc3f-a5cab2732164.png) (FREAK, Logjam)  
+217.157.159.181 (Kartago Capital A/S) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221426241-ae990345-7d8d-4819-9f96-6a27a526cb54.png) (CVE-2022-32548 - unauthorized remote code execution)  
+193.162.253.150 - (SU Styrelsen) - [Sårbarheder](https://user-images.githubusercontent.com/70659124/221428502-49806c80-2668-49fb-9922-8eb171f527fd.png) (MANGE!)
 
 
 Jeg skal til jobsamtale hos den danske virksomhed Tryg Forsikring, så passende kan vi lave en søgning på dem:
 
 query: ```org:Tryg has_vuln:true```
+
+![image](https://user-images.githubusercontent.com/70659124/221428582-924893d7-a905-429f-965d-f3608b76d822.png)
+
+begge servere har følgende sårbarhed:
+![image](https://user-images.githubusercontent.com/70659124/221428612-c4c65f8f-384b-44af-87b1-454c3b2cb2da.png)
+
 
 
 
