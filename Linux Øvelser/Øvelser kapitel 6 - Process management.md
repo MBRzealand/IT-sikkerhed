@@ -62,10 +62,17 @@ editor and then schedule it to run next Wednesday at 1 Am .
 #### Besvarelse:
    
 ```shell
+sudo apt install at
+
 touch myscanning
 echo "#! /bin/bash" >> myscanning
 echo "echo hello" >> myscanning
 chmod u+x myscanning
 
 
+at 1:00am 03/08/2023
+./myscanning
 ```
+
+![image](https://user-images.githubusercontent.com/70659124/221894004-0a92278d-26e1-4c10-a80e-f370813d1700.png)
+
