@@ -5,7 +5,15 @@ Create your own greeting script similar to our HelloHackersArise script
    
 ```shell
 touch MyFirstBashScript
+echo '#! /bin/bash' >> MyFirstBashScript
+echo 'echo "Ungabunga welcome script"' >> MyFirstBashScript
+
+chmod 755 MyFirstBashScript
+
+./MyFirstBashScript
 ```
+![image](https://user-images.githubusercontent.com/70659124/221920265-87abcff6-d996-44af-aba4-dc844ed08b28.png)
+
 
 ## Øvelse 2:
 Create a script similar to *MySQLscanner.sh* but design it to find systems with
@@ -14,6 +22,10 @@ Microsoft’s SQL Server database at port 1433. Call it *MSSQLscanner*.
 #### Besvarelse:
    
 ```shell
+touch MySQLscanner.sh
+echo '#! /bin/bash' >> MySQLscanner.sh
+echo 'echo "What is your name?"' 
+
 ```
 
 ## Øvelse 3:
