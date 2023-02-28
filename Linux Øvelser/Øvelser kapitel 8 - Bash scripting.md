@@ -22,11 +22,21 @@ Microsoft’s SQL Server database at port 1433. Call it *MSSQLscanner*.
 #### Besvarelse:
    
 ```shell
-touch MySQLscanner.sh
-echo '#! /bin/bash' >> MySQLscanner.sh
-echo 'echo "What is your name?"' 
+touch MSSQLscanner.sh
+echo '#! /bin/bash' >> MSSQLscanner.sh
+chmod 755 MSSQLscanner.sh
 
+mousepad MSSQLscanner.sh
 ```
+selve scriptet:  
+![image](https://user-images.githubusercontent.com/70659124/221950775-5e0c41b6-24db-4df8-b936-d203560a382b.png)
+
+
+Scan resultatet i filen MSSQLscan:  
+![image](https://user-images.githubusercontent.com/70659124/221950081-7b785fc5-57fe-4b1f-9608-775c88ef6c6b.png)
+
+Da resultatet af scannet kun indeholder lukkede porte, vil grep funktionen ikke finde noget med "open" søgningen.  
+Deraf vil MSSQL2 filen være tom, og scriptet printer altså intet i konsollen.
 
 ## Øvelse 3:
 Alter that *MSSQLscanner* script to prompt the user for a starting and end-
@@ -36,4 +46,15 @@ where those ports are closed and display only those that are open.
 #### Besvarelse:
    
 ```shell
+touch MySQLscanner.sh
+echo '#! /bin/bash' >> MySQLscanner.sh
+
+mousepad MySQLscanner.sh
 ```
+selve scriptet:  
+![image](https://user-images.githubusercontent.com/70659124/221952698-4a824e5a-bc71-475b-8cc1-dacc77db0d44.png)
+
+
+
+
+
