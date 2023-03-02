@@ -51,4 +51,7 @@ sort <filename> | uniq
 sudo tcpdump -i eth0 host kallas.dk
 sudo tcpdump tcp port 80 and host kallas.dk
 sudo tcpdump tcp port 80 and dst host kallas.dk
+
+# capture dns requests - DNS er på udp port 53
+sudo tcpdump udp port 53 -v 
 ```
