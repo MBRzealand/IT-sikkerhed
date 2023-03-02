@@ -45,3 +45,10 @@ cut -d " " -f1 access.log| head
 ```shell
 sort <filename> | uniq
 ```
+
+#### tcpdump
+```shell
+sudo tcpdump -i eth0 host kallas.dk
+sudo tcpdump tcp port 80 and host kallas.dk
+sudo tcpdump tcp port 80 and dst host kallas.dk
+```
