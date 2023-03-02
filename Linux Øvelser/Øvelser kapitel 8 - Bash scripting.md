@@ -51,8 +51,9 @@ echo '#! /bin/bash' >> MySQLscanner.sh
 
 mousepad MySQLscanner.sh
 ```
-selve scriptet:  
-![image](https://user-images.githubusercontent.com/70659124/221952698-4a824e5a-bc71-475b-8cc1-dacc77db0d44.png)
+Selve scriptet:  
+![image](https://user-images.githubusercontent.com/70659124/222367321-490eab37-23cf-492d-b269-71fe4f921067.png)
+
 
 
 
