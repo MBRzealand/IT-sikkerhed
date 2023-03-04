@@ -1,3 +1,29 @@
+# Øvelser fra timen:
+
+## Øvelse SSH:
+<ul>
+   <li>Besøg min server i Amazon vha kommandoen <i>ssh noobs@18.195.65.114</i><br/>
+      <b><i>noobs / M=bg*6GCn<~^t+;4</i></b> </li>
+   <li><i>Find flaget på dit skrivebord.</i></li>
+   <li><i>Prøv at downloade filen via SCP (<a href="https://gist.github.com/andracs/5918331f2ac38eb2ed552b148a90bc8f">hint</a>)</i></li>
+   <li><i>Placer dit eget flag på skrivebordet.</i></li>
+   <li><i>Kan du placere en hacked.html fil i <b>/var/www/</b> som du kan tilgå på http://18.195.65.114/hacked.html ? </i></li>
+</ul>
+
+```shell
+# Bemærk: Jeg var til jobsamtale på dagen, øvelserne er lavet efterfølgende, uden adgang til serveren.
+ssh noobs@18.195.65.114
+cd ~/Desktop
+scp noobs@18.195.65.114:/home/noobs/flag.txt ~/Desktop  # alternativt kan vi anvende "get flag.txt"
+touch MikkelsFlag.txt  # alternativt kan vi uploade et lokalt flag til serveren med scp
+echo "dette er mikkels flag" > MikkelsFlag.txt # eksempelvis scp ~/Desktop/MikkelsFlag.txt noobs@18.195.65.114:~/Desktop
+scp ~/Desktop/hacked.html noobs@18.195.65.114:/var/www/
+```
+
+<br/>
+
+# Øvelser fra bogen
+
 ## Øvelse 1:
 Start your apache2 service through the command line.
 
