@@ -14,7 +14,7 @@ Vi har i forbindelse med introforløbet også været inde over kryptografi, kryp
 Vi har gennemgået diverse preventive 
 
 <b>Shodan aflevering</b><br/>
-For at danne et overblik over trusselsbilledet har vi udarbejdet en opgave om redskabet Shodan. Opgaven har givet indblik i både mængden af devices med sikkerhedshuller, samt hvilke sårbarheder diverse devices typisk lider af. Ligeledes har opgaven medvirket til at skabe awareness da devices som valgmaskiner og ubådskontrolpaneler nemt kan findes, samt hvilke sikkerhedshuller de lider af.
+For at danne et overblik over trusselsbilledet har vi udarbejdet en opgave om redskabet Shodan. Opgaven har givet indblik i både mængden af devices der indeholder sikkerhedshuller, antallet af sikkerhedshuller per device, samt hvilke sårbarheder diverse devices typisk lider af. Opgaven medvirket til at skabe awareness da devices som valgmaskiner og ubådskontrolpaneler nemt kan findes, samt hvilke sikkerhedshuller de lider af.
 
 
 ## Netværk- og kommunikationssikkerhed
