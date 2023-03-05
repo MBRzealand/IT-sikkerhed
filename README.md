@@ -8,7 +8,7 @@ Vi har
 
 
 ## Kryptering og Kryptologi
-Vi har i forbindelse med introforløbet også været inde over kryptografi og kryptologi, hvor vi har beskæftiget os med både [historiske chifre](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Historiske%20Chifre.md), [assymetrisk kryptering](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Asymmetrisk%20Kryptering.md) og [moderne Kryptografi](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Moderne%20Kryptografi.md). Vi har lært at anvende forskellige redskaber såsom [Cyberchef](https://gchq.github.io/CyberChef/), [Steganography Online](https://stylesuxx.github.io/steganography/)
+Vi har i forbindelse med introforløbet også været inde over kryptografi, kryptologi og steganografi, hvor vi har beskæftiget os med både [historiske chifre](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Historiske%20Chifre.md), [assymetrisk kryptering](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Asymmetrisk%20Kryptering.md) og [moderne Kryptografi](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Moderne%20Kryptografi.md). Vi har i undervisningen lært at anvende forskellige redskaber til kryptering/dekryptering samt steganografi. Eksempelvis har vi anvendt [Cyberchef](https://gchq.github.io/CyberChef/), [Steganography Online](https://stylesuxx.github.io/steganography/) og [Crackstation](https://crackstation.net/)
 
 
 ## Netværk- og kommunikationssikkerhed
