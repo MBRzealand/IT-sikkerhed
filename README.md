@@ -1,4 +1,4 @@
-# Eksamensrapport - Mikkel Boye Rasmussen
+# [IKKE FÆRDIG] - Eksamensrapport - Mikkel Boye Rasmussen
 
 ## Linux basics for hackers
 Vi har været igennem et intensivt Linux forløb indeholdende alt fra basale terminal-kommandoer, til mere dybdegående systemnære kommandoer og exploits.
