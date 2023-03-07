@@ -1,7 +1,7 @@
 # [IKKE FÆRDIG]: Eksamensrapport - Mikkel Boye Rasmussen
 
 ## Indledning
-Introforløbet har haft en praktisk-teoretisk tilgang hvor de forskellige fags undervisningselementer naturligt overlapper. Vi har haft en ingangsvinkel, hvor vi selv har fået lov til at prøve kræfter af med cyberangreb. Deraf kan der garanteres at vi får hands-on viden/erfaring vedrørende hvilke trusler en virksomhed kan være udsat for, samt skabe bedre vilkår for at mitigere risici forbundet med cyberangreb. I min optik kan undervisningsstrukturen og den generelle røde tråd i forløbet, ses lidt som de forkellige indledende skridt for at kunne udføre en pentest. 
+Introforløbet har haft en praktisk-teoretisk tilgang hvor de forskellige fags undervisningselementer naturligt overlapper. Vi har haft en ingangsvinkel, hvor vi selv har fået lov til at prøve kræfter af med forskellige typer cyberangreb. Deraf har vi fået hands-on viden/erfaring vedrørende hvilke trusler en virksomhed kan være udsat for, samt skabt bedre vilkår for at vi kan mitigere risici forbundet med cyberangreb. I min optik kan undervisningsstrukturen og den generelle røde tråd i forløbet, ses lidt som de forkellige indledende skridt for at kunne udføre en pentest. 
 
 - Vi har lært hvordan man kan identificere et sårbart system, samt typiske systemsvagheder.
 - Vi har igennem netværksteori lært hvordan man kan tilslutte sig et system.
