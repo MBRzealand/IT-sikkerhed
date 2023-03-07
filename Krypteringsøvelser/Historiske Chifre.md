@@ -14,18 +14,18 @@ Afprøv og sammenlign krypteringsalgoritmerne i Cyberchef ved at kryptere en bes
 #### ROT13:
 Besked: ```Hej min makker```  
 Krypteret besked: ```Urw zva znxxre```  
-Link: https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=SGVqIG1pbiBtYWtrZXI
+Link: https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)ROT13(true,true,false,13/disabled)&input=SGVqIG1pbiBtYWtrZXI
 
 #### ROT47:
 Besked: ```Hvordan går det?```  
 Krypteret besked: ```wG@C52? 8åC 56En```  
-Link: https://gchq.github.io/CyberChef/#recipe=ROT47(47)&input=SHZvcmRhbiBn5XIgZGV0Pw
+Link: https://gchq.github.io/CyberChef/#recipe=ROT47(47)ROT47(47/disabled)&input=SHZvcmRhbiBn5XIgZGV0Pw
 
 #### Vigenére:
 Besked: ```Håber du har det godt```  
 Krypteret besked: ```Zåvtv uw voc sel ykrk```  
 Key: ```SuperCoolPasswordNooneWillEverGuess```  
-Link: https://gchq.github.io/CyberChef/#recipe=Vigen%C3%A8re_Encode('SuperCoolPasswordNooneWillEverGuess')&input=SOViZXIgZHUgaGFyIGRldCBnb2R0
+Link: https://gchq.github.io/CyberChef/#recipe=Vigen%C3%A8re_Encode('SuperCoolPasswordNooneWillEverGuess')Vigen%C3%A8re_Decode('SuperCoolPasswordNooneWillEverGuess'/disabled)&input=SOViZXIgZHUgaGFyIGRldCBnb2R0
 
 #### Enigma:
 Besked: ```Vi ses nok snart igen til flere øvelser```  
