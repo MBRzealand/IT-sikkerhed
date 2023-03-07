@@ -48,10 +48,15 @@ sort <filename> | uniq
 
 #### tcpdump
 ```shell
-sudo tcpdump -i eth0 host kallas.dk
-sudo tcpdump tcp port 80 and host kallas.dk
-sudo tcpdump tcp port 80 and dst host kallas.dk
+sudo tcpdump -i eth0 host google.dk
+sudo tcpdump tcp port 80 and host google.dk
+sudo tcpdump tcp port 80 and dst host google.dk
 
 # capture dns requests - DNS er på udp port 53
 sudo tcpdump udp port 53 -v 
+```
+
+## aircrack-ng
+```shell
+
 ```
