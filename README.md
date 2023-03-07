@@ -4,7 +4,7 @@
 Introforløbet har haft en praktisk-teoretisk tilgang hvor de forskellige fags undervisningselementer naturligt overlapper. Vi har haft en indgangsvinkel, hvor vi selv har fået lov til at prøve kræfter af med forskellige typer cyberangreb. Deraf har vi fået hands-on viden/erfaring vedrørende hvilke trusler en virksomhed kan være udsat for, samt skabt bedre vilkår for at vi kan mitigere risici forbundet med cyberangreb. I min optik kan undervisningsstrukturen og den generelle røde tråd i forløbet, ses lidt som de forskellige indledende skridt for at kunne udføre en pentest. 
 
 - Vi har lært hvordan man kan identificere et sårbart system, samt typiske systemsvagheder.
-- Vi har igennem netværksteori lært hvordan man kan tilslutte sig et system, samt aflæse traffik.
+- Vi har igennem netværksteori lært hvordan man kan tilslutte sig et system, samt aflæse trafik.
 - Vi har lært linux således vi kan navigere og kontrollere de systemer vi tilslutter os.
 - Vores mere komplekse linux undervisning har lært os at hente data, samt slette vores spor.
 - Vi har lært om kryptering og kryptologi således vi kan få information ud af de tilgåede data.
