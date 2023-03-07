@@ -1,18 +1,18 @@
-# [IKKE FÆRDIG]: Eksamensrapport - Mikkel Boye Rasmussen
+# [FÆRDIG]: Eksamensrapport - Mikkel Boye Rasmussen
 
 ## Indledning
-Introforløbet har haft en praktisk-teoretisk tilgang hvor de forskellige fags undervisningselementer naturligt overlapper. Vi har haft en indgangsvinkel, hvor vi selv har fået lov til at prøve kræfter af med forskellige typer cyberangreb. Deraf har vi fået hands-on viden/erfaring vedrørende hvilke trusler en virksomhed kan være udsat for, samt skabt bedre vilkår for at vi kan mitigere risici forbundet med cyberangreb. I min optik kan undervisningsstrukturen og den generelle røde tråd i forløbet, ses lidt som de forkellige indledende skridt for at kunne udføre en pentest. 
+Introforløbet har haft en praktisk-teoretisk tilgang hvor de forskellige fags undervisningselementer naturligt overlapper. Vi har haft en indgangsvinkel, hvor vi selv har fået lov til at prøve kræfter af med forskellige typer cyberangreb. Deraf har vi fået hands-on viden/erfaring vedrørende hvilke trusler en virksomhed kan være udsat for, samt skabt bedre vilkår for at vi kan mitigere risici forbundet med cyberangreb. I min optik kan undervisningsstrukturen og den generelle røde tråd i forløbet, ses lidt som de forskellige indledende skridt for at kunne udføre en pentest. 
 
 - Vi har lært hvordan man kan identificere et sårbart system, samt typiske systemsvagheder.
 - Vi har igennem netværksteori lært hvordan man kan tilslutte sig et system.
 - Vi har lært linux således vi kan navigere og kontrollere de systemer vi tilslutter os.
 - Vores mere komplekse linux undervisning har lært os at hente data, samt slette vores spor.
 - Vi har lært om kryptering og kryptologi således vi kan få information ud af de tilgåede data.
-- Til sidst har vi fået opsat diverse troværdige virtuelle miljø hvor vi etsik kan prøve kræfter af med vores nye viden.
+- Til sidst har vi fået opsat diverse troværdige virtuelle miljø hvor vi etisk kan prøve kræfter af med vores nye viden.
 
-Denne process kulminerer til sidst i vores første CTF-event hvor alt denne viden skal anvendes.
+Denne proces kulminerer til sidst i vores første CTF-event hvor alt denne viden skal anvendes.
 
-Arbejdsbyrden jeg har lagt i forståelsen af disse forskellige processskridt kan ses nedenfor, ligeledes er hele GitHub repositoriet en samling af alt hvad jeg har udarbejdet i forbindelse med introforløbet.
+Arbejdsbyrden jeg har lagt i forståelsen af disse forskellige processkridt kan ses nedenfor, ligeledes er hele GitHub repositoriet en samling af alt hvad jeg har udarbejdet i forbindelse med introforløbet, inklusiv [forelæsningsnoter](https://github.com/MBRzealand/IT-sikkerhed/tree/main/Forel%C3%A6sningsnoter).
 
 
 ## Kali Linux
@@ -21,7 +21,7 @@ For at lære at anvende Linux, har vi taget udgangspunkt i at læse bogen "Linux
 Alle Linux opgaverne løst af mig, kan findes [her](https://github.com/MBRzealand/IT-sikkerhed/tree/main/Linux%20%C3%98velser).
 
 
-## Kryptering og Kryptologi
+## Kryptering, Kryptologi og Kryptografi
 Vi har i forbindelse med introforløbet været inde over kryptografi, kryptologi og steganografi, hvor vi har beskæftiget os med [historiske chifre](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Historiske%20Chifre.md), [assymetrisk kryptering](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Asymmetrisk%20Kryptering.md) og [moderne Kryptografi](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Krypterings%C3%B8velser/Moderne%20Kryptografi.md). Vi har i undervisningen lært at anvende forskellige redskaber til kryptering/dekryptering samt steganografi. Eksempelvis har vi anvendt [Cyberchef](https://gchq.github.io/CyberChef/), [Steganography Online](https://stylesuxx.github.io/steganography/) og [Crackstation](https://crackstation.net/) til at prøve kræfter med de forskellige muligheder for at skjule data.
 
 ## Systemsikkerhed
