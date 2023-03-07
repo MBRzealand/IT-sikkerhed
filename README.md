@@ -59,7 +59,7 @@ Jeg har valgt at supplere den viden vi får fra studiet, med kurser tilknyttet a
 <b>Fritid</b><br/>
 I min fritid har jeg prøvet kræfter af med flere elementer af Aircrack-ng suiten, (airmon-ng, airodump-ng etc.) til at lave et evil twin angreb på min egen router. Jeg har yderligere undersøgt hvordan photoshop kombineret med moderne AI-teknologier kan skjule billeddata således forensics-redskaber som [Forensically](https://29a.ch/photo-forensics/) ikke kan vurdere hvorvidt billedet er ændret.
 
-Til sidst har jeg samlet en kort liste af et par [ekstra kommandoer](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Linux%20%C3%98velser/ekstra_linux_kommandoer.md)
+Til sidst har jeg samlet en kort liste af et par [ekstra linux kommandoer](https://github.com/MBRzealand/IT-sikkerhed/blob/main/Linux%20%C3%98velser/ekstra_linux_kommandoer.md)
  brugt undervejs i forløbet som ikke helt har været pensum. 
 
  
