@@ -54,7 +54,7 @@ I netværk og kommunikationssikkerhed har hovedfokus været 5-lags modellen og g
 ## Øvelser udover pensum
 
 <b>Online Bootcamp</b><br/>
-Jeg har valgt at supplere den viden vi får fra studiet, med kurser tilknyttet afholdelsen af [de danske mesterskaber i cybersikkerhed](https://www.cybermesterskaberne.dk/online-traening/). Igennem disse kurser har jeg fået et par ugers forspring og deraf tidligt prøvet kræfter af med redskaber som **Hydra** og **metasploit**. Vi benyttet en CTF-platform ved nawn Haaukins til at prøve kræfter af med forskellige XSS-angreb, packet sniffing samt exploits som Heartbleed og Samba.
+Jeg har valgt at supplere den viden vi får fra studiet, med kurser tilknyttet afholdelsen af [de danske mesterskaber i cybersikkerhed](https://www.cybermesterskaberne.dk/online-traening/). Igennem disse kurser har jeg fået et par ugers forspring og deraf tidligt prøvet kræfter af med redskaber som **Hydra** og **metasploit**. Vi har benyttet en CTF-platform ved nawn Haaukins til at prøve kræfter af med forskellige XSS-angreb, packet sniffing samt exploits som Heartbleed og Samba.
 
 <b>Fritid</b><br/>
 I min fritid har jeg prøvet kræfter af med flere elementer af Aircrack-ng suiten, (airmon-ng, airodump-ng etc.) til at lave et evil twin angreb på min egen router. Jeg har yderligere undersøgt hvordan photoshop kombineret med moderne AI-teknologier kan skjule billeddata således forensics-redskaber som [Forensically](https://29a.ch/photo-forensics/) ikke kan vurdere hvorvidt billedet er ændret.
